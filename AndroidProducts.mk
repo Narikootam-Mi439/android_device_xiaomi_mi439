@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mi439.mk
+    $(LOCAL_DIR)/voltage_mi439.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mi439-user \
-    aosp_mi439-userdebug \
-    aosp_mi439-eng
+    voltage_mi439-user \
+    voltage_mi439-userdebug \
+    voltage_mi439-eng
