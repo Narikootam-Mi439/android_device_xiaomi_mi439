@@ -25,6 +25,9 @@ $(call inherit-product, device/xiaomi/mi439/device.mk)
 # Inherit from common AOSP configuration
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
+# Official-ify
+VOLTAGE_BUILD_TYPE := OFFICIAL
+
 PRODUCT_NAME := voltage_mi439
 PRODUCT_DEVICE := mi439
 PRODUCT_BRAND := Xiaomi
