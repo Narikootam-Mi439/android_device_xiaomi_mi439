@@ -356,10 +356,6 @@ TARGET_COMMON_QTI_COMPONENTS += \
     telephony \
     usb
 
-# Remove packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # RIL
 PRODUCT_PACKAGES += \
     libxml2
