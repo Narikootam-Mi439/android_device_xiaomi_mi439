@@ -357,10 +357,6 @@ TARGET_COMMON_QTI_COMPONENTS += \
     overlay \
     telephony
 
-# Remove packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # RIL
 PRODUCT_PACKAGES += \
     libxml2
